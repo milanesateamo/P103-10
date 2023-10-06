@@ -1,0 +1,50 @@
+body{
+background-color: rgb(238, 223, 191);
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(238, 177, 182);
+    width: 300px;
+    padding: 10px;
+}
+
+.itemsnav{
+    display: inline;
+    padding: 10px;
+}
+
+h1{
+    background-image: url(./imagenes/Meow\ meow.jpeg) ;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 80px , 20px;
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(99, 89, 89);
+}
+
+.tarjeta{
+    max-width: 300px;
+    margin: 50px auto;
+    border: 2px solid rgb(255, 255, 255) ;
+    box-shadow: 5px 5px 10px rgb(123, 123, 134),
+    -5px -5px 10px rgb(194, 189, 194);
+}
+
+.imgtar{
+    width: 100%;
+}
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family:'Raleway', sans-serif
+}
+
+.resaltado{
+    background-color:rgb(241, 172, 210);
+}
